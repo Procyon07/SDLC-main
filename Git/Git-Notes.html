@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        code{
+            background-color: black;
+            color:azure;
+            font-size: 1.5rem;
+        }
+    </style>
+    <title>Git and GitHub</title>
+</head>
+<body>
+    <div>
+        <h1>Git and GitHub</h1>
+        <p>Git is a Version Control system, which allows you to manage source code history, it is a local solution.</p>
+        <p>GitHub is a hosting and collaboration provider, is also a web based solution.</p>
+        <br/>
+        <p>Repository is the location where code history is stored.</p>
+        <p>Branch is a "folder" within the repository containing commits.</p>
+        <p>Commits are different stages of your code within a branch.</p>
+        <br/>
+        <p>Git does not save every single saved version, it tracks changes between versions instead, saving memory.</p>
+
+        <hr>
+
+        <h2>Commands</h2>
+        <code>$git init</code>
+        <p>Initializes a local Git repository</p>
+
+        <code>$git add.</code>
+        <p>Adds all the files of the project folder into git.</p>
+
+        <code>$git commit -m ""</code>
+        <p>Commit changes of current code as a version of the code you want to save, every commit must come with a comment, which should be put between the "".</p>
+
+        <code>$git log</code>
+        <p>Shows change logs.</p>
+
+        <code>$git status</code>
+        <p>Shows current status of the project.</p>
+
+        <code>$git branch</code>
+        <p>Shows current branch.</p>
+
+        <code>$git master</code>
+        <p>Returns you to the master branch.</p>
+
+        <code>$git reset --hard "commitid"</code>
+        <p>Resets branch to selected commit.</p>
+
+        <code>$git checkout -- .</code>
+        <p>Reverts all unstaged changes.</p>
+
+        <code>$git checkout -b "new branch name"</code>
+        <p>Creates a new branch, replicating current repository.</p>
+
+        <code>$git merge "branch name"</code>
+        <p>merges a branch into the master branch.</p>
+
+        <code>$git branch -D "Branch name"</code>
+        <p>Deletes a branch.</p>
+
+
+
+
+    </div>
+    <hr>
+</body>
+</html>
